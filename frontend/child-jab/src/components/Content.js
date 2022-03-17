@@ -12,7 +12,7 @@ function Content() {
     <div className="container-fluid">
       <div className="row sm-1">
         <div className="col-sm-12">
-          <h5 style={{ color: "red" }}><marquee>Welcome to Child Care Center... &nbsp;&nbsp;&nbsp; Your Babies are in Safe Hands... &nbsp;&nbsp;&nbsp; Happy Daycare, Happy Children, Happy Parents...</marquee></h5>
+          {/* <h5 style={{ color: "red" }}><marquee>Welcome to Child Care Center... &nbsp;&nbsp;&nbsp; Your Babies are in Safe Hands... &nbsp;&nbsp;&nbsp; Happy Daycare, Happy Children, Happy Parents...</marquee></h5> */}
         </div>{/* /.col */}
         <div className="col-sm-6">
         </div>{/* /.col */}

@@ -73,9 +73,9 @@ function NAvbar(props) {
         <NavDropdown.Divider />
         <NavDropdown.Item href="/host-login">Sign In</NavDropdown.Item>
         </NavDropdown>
-            <Nav.Link href="/gallery">
+            {/* <Nav.Link href="/gallery">
               <b>Gallery</b>
-            </Nav.Link>
+            </Nav.Link> */}
             <NavDropdown title="About" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/about-us">Who We are</NavDropdown.Item>
         <NavDropdown.Item href="/ourvalues">Our Values</NavDropdown.Item>

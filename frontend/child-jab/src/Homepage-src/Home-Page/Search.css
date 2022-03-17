@@ -1,0 +1,25 @@
+.search{
+    background-color:cornflowerblue;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background-size:cover;
+    display:flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.search_care_center{
+    background-color: white;
+    width: 70%;
+    border: 2px solid black;
+    box-shadow: 4px 4px;
+
+}
+h2{
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Baloo 2', cursive;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+
+
+
+
+.HomeApp {
+  height: 100vh;
+  
+  justify-content: center;
+  text-align: center;
+  
+}
+.getstarted_btn{
+    
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: 'Baloo 2', cursive;
+  border: 1.5px solid black;
+  margin-inline: 5px;
+  box-shadow: 4px 4px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: white ;
+}
+.getstarted_btn:hover{
+  background-color: tomato;
+}
+.getstarted_btn:active {
+  
+  box-shadow: 0px 0px;
+  transform: translateY(4px);
+}
+
+
+
+
+.App-link {
+  color: #04576e;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+#footer {
+	background: #33ce6e;
+	margin: 0;
+	padding: 36px 0 42px;
+}
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+#footer div p {
+	color: #fff;
+	float: left;
+	line-height: 44px;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+#footer div ul {
+	display: block;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 256px;
+}
+#footer div ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	width: 44px;
+}
+#footer div ul li a {
+	background: url(../Homepage-src/img/icons.jpg) no-repeat 0 0;
+	display: block;
+	height: 44px;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 44px;
+}
+#footer div ul li #twitter {
+	background-position: 0 0;
+}
+#footer div ul li #twitter:hover {
+	background-position: -44px 0;
+}
+#footer div ul li #facebook {
+	background-position: 0 -44px;
+}
+#footer div ul li #facebook:hover {
+	background-position: -44px -44px;
+}
+#footer div ul li #googleplus {
+	background-position: 0 -88px;
+}
+#footer div ul li #googleplus:hover {
+	background-position: -44px -88px;
+}
+#footer div ul li #pinterest {
+	background-position: 0 -132px;
+}
+#footer div ul li #pinterest:hover {
+	background-position: -44px -132px;
+}

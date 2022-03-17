@@ -1,0 +1,4 @@
+export const userConstants ={
+    LOGIN_USER_REQUEST : "LOGIN_USER_REQUEST",
+    LOGOUT_USER_REQUEST : "LOGOUT_USER_REQUEST"
+}

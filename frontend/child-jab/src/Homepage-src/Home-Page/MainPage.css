@@ -1,0 +1,43 @@
+.MainPage{
+    background-color: #8ea0ebb0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.card{
+    
+    font-family: 'Baloo 2', cursive;
+    border-top-right-radius:20px ;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    box-shadow: 7px 7px;
+    
+    
+}
+.img_center{
+    
+    align-self: center;
+    width: 100px;
+    height: 100px;
+}
+.container_first{
+    margin-top: 80px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.container_login {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }

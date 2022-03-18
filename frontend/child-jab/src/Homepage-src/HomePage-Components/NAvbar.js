@@ -3,7 +3,7 @@ import { Navbar, Nav, Form,Container, NavDropdown} from "react-bootstrap";
 import "./Style.css";
 import '../Home-Page/About.css'
 import { Link, useHistory } from "react-router-dom";
-import navlogo from '../nav-logo.jpg'
+import navlogo from '../nav-logo.png'
 import {connect} from 'react-redux'
 import {searchCenter} from '../../_actions/center.action'
 

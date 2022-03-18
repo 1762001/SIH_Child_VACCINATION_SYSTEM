@@ -11,7 +11,7 @@
     background-color: white ;
 }
 .getstarted_btn:hover{
-    background-color: tomato;
+    background-color: rgba(87, 5, 163, 0.664);
 }
 .getstarted_btn:active {
     
@@ -19,13 +19,29 @@
     transform: translateY(4px);
   }
 .Home{
-    background-color:#8ea0ebb0;
-    min-height: 100vh;
+    background: url(./imgs/81D8wlJJVPL._SL1500_.jpg) no-repeat center center fixed;
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 100vh;
+    background-size: cover;
+    top: 0;
+    left: 0;
+   
+    right: 0;
+    
+
+
+   
+    
+
+    
+    
+    background-size: fill;
+    
+    background-repeat: no-repeat;
     
 }
 .container_first{
@@ -36,13 +52,17 @@
     font-weight: 800;
     font-size: 60px;
     font-family: 'Baloo 2', cursive;
+    color: rgb(120, 4, 253);
+    background: rgba(10, 10, 10, 0.842);
+    border-radius: 20px;
     
-
 }
 .subtitle_text{
     font-size: 20px;
     font-weight: 600;
     font-family: 'Baloo 2', cursive;
+    color: rgb(29, 59, 233);
+    background: rgba(243, 244, 250, 0.842);
 }
 .text_head{
     border: 1.5px solid black;

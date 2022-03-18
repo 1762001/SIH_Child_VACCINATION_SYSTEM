@@ -13,17 +13,21 @@
 
 .nav_bg{
     align-items: flex-end;
-    background-color:palegreen;
-    border: 2px solid black;
+    background-color:rgba(58, 40, 3, 0.795);
+    border: 2px solid rgb(8, 8, 8);
     text-align: center;
     align-items: center;
     box-shadow: 4px 4px;
+    
+
 }
 .nav_text{
    
     
     font-family: 'Sarina', cursive;
     font-weight: 400;
+    
+    
     
     
     
@@ -42,10 +46,14 @@
     box-shadow: 4px 4px;
     font-weight: 700;
     cursor: pointer;
-    background-color: white ;
+    background-color: rgba(252, 248, 248, 0.61) ;
+    border-radius: 20px;
+    
 }
+
+
 .nav_btn:hover{
-    background-color: #ffe96e;
+    background-color: #796407d7;
     
 }
 .nav_btn:active {

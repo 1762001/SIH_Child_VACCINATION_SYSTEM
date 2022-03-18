@@ -24,15 +24,15 @@
   margin-top: 20px;
   font-size: 18px;
   font-family: 'Baloo 2', cursive;
-  border: 1.5px solid black;
+  border: 1.5px solid rgb(87, 2, 2);
   margin-inline: 5px;
   box-shadow: 4px 4px;
   font-weight: 700;
   cursor: pointer;
-  background-color: white ;
+  background-color: rgb(218, 17, 17) ;
 }
 .getstarted_btn:hover{
-  background-color: tomato;
+  background-color: rgb(126, 48, 34);
 }
 .getstarted_btn:active {
   

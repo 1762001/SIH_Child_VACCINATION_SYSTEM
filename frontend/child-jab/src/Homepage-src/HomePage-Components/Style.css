@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+
+
+
+.nav_bg{
+    align-items: flex-end;
+    background-color:rgba(58, 40, 3, 0.795);
+    border: 2px solid rgb(8, 8, 8);
+    text-align: center;
+    align-items: center;
+    box-shadow: 4px 4px;
+    
+
+}
+.nav_text{
+   
+    
+    font-family: 'Sarina', cursive;
+    font-weight: 400;
+    
+    
+    
+    
+    
+}
+
+.mr-auto{
+    font-size: 18px;
+    font-family: 'Baloo 2', cursive;
+    
+}
+.nav_btn{
+    font-size: 18px;
+    font-family: 'Baloo 2', cursive;
+    border: 1.5px solid black;
+    margin-inline: 5px;
+    box-shadow: 4px 4px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgba(252, 248, 248, 0.61) ;
+    border-radius: 20px;
+    
+}
+
+
+.nav_btn:hover{
+    background-color: #796407d7;
+    
+}
+.nav_btn:active {
+    
+    box-shadow: 0px 0px;
+    transform: translateY(4px);
+  }
+
+.container_card {
+    align-content:flex-start;
+    margin-left: 10px;
+}
+
+
+
+ 

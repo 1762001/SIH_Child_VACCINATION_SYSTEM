@@ -1,0 +1,5 @@
+export const authConstants = {
+    CREATE_AUTH_REQUEST : "CREATE_AUTH_REQUEST",
+
+    LOGOUT_REQUEST : "LOGOUT_REQUEST"
+}

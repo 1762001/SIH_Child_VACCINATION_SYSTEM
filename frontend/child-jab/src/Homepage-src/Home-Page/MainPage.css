@@ -1,5 +1,5 @@
 .MainPage{
-    background-color: #94a0ceb0;
+    background-color: #718502c7;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     width: 100%;
     
 }
+
 .card{
     
     font-family: 'Baloo 2', cursive;

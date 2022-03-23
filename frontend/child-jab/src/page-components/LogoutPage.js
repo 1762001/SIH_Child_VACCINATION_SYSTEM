@@ -15,7 +15,7 @@ function LogoutPage(props) {
         sessionStorage.removeItem("auth")
         switch(user){
           case "admin":
-            history.push(`/admin-login`)
+            history.push(`/manage-centers`)
             break;
           case "center":
             history.push(`/center-login`)

@@ -59,7 +59,7 @@
 
 
 #footer {
-	background: #33ce6e;
+	background: #4d7501;
 	margin: 0;
 	padding: 36px 0 42px;
 }
@@ -70,7 +70,7 @@
 	width: 960px;
 }
 #footer div p {
-	color: #fff;
+	color: rgb(241, 238, 238);
 	float: left;
 	line-height: 44px;
 	margin: 0 0 0 10px;

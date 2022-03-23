@@ -33,7 +33,7 @@ function HomePage() {
           <>
         {/* <div style={{ backgroundImage: `url(${background})` }}> */}
         <div className="child-care logo" align="center"> 
-        <img src={childcare} width="500" height="250"/> 
+        <img src={childcare} width="100vw" height="250"/> 
         </div>
          
         &nbsp;&nbsp;

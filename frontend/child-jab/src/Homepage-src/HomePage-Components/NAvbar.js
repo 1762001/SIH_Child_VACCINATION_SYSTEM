@@ -65,7 +65,7 @@ function NAvbar(props) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/child-care">
-              <b>Home</b>
+              <b className="bold-nav">Home</b>
             </Nav.Link>
             <NavDropdown title="For Parents" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/flow">How to Choose a center</NavDropdown.Item>
@@ -81,10 +81,10 @@ function NAvbar(props) {
         <NavDropdown.Item href="/ourvalues">Our Values</NavDropdown.Item>
         </NavDropdown>
             <Nav.Link href="/contact-us">
-              <b>Contact Us</b>
+              <b className="bold-nav">Contact Us</b>
             </Nav.Link>
           
-         <NavDropdown title="My Account" id="collasible-nav-dropdown" >
+         <NavDropdown  title="My Account" id="collasible-nav-dropdown" >
          <NavDropdown.Item>Signed In as : {login!==null && login.full_name}</NavDropdown.Item>
          <NavDropdown.Item href="/logout">Log-Out</NavDropdown.Item>
          </NavDropdown>

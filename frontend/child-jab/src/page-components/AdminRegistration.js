@@ -30,7 +30,7 @@ const AdminRegistration = (props) => {
       localStorage.setItem('token' , json.authtoken);
       // to redirect we use useNavigate hook
       
-      // history.push(`/admin-login`)
+      history.push(`/admin-login`)
       // props.showAlert("Account Created","success")
     } else {
       // props.showAlert("Invalid credentials","danger")

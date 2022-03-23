@@ -27,7 +27,7 @@ const AdminLogin = (props) => {
       // to redirect we use useNavigate hook
       // props.showAlert("Logged in","success")
       // props.alert('Hurray! Login Successfull')
-      // history.push("/manage-centers");
+      history.push("/manage-centers");
       console.log("logeed in");
       
     }

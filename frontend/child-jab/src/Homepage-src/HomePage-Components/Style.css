@@ -10,8 +10,8 @@
 
 .nav_bg {
     align-items: flex-end;
-    background-color: rgba(56, 87, 6, 0.795);
-    background-color: #4c7501c5;
+    background-color: #427005cc;
+    
     border: 2px solid rgb(8, 8, 8);
     text-align: center;
     align-items: center;
@@ -41,7 +41,7 @@
 }
 
 .nav_btn:hover {
-    background-color: #67ad0cd7;
+    background-color: #75cc04d7;
 }
 
 .nav_btn:active {

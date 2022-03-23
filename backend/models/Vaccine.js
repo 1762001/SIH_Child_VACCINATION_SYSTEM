@@ -19,6 +19,10 @@ const VaccineSchema = new Schema({
 
         type:Number,
         required:true
+    },
+    notification_sent:{
+        type:Boolean,
+        required:true
     }
 
 });

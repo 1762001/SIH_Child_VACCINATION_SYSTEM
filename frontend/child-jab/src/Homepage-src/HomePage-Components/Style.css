@@ -15,7 +15,11 @@
 }
 .nav_bg{
     align-items: flex-end;
+<<<<<<< HEAD
+    background-color:rgba(56, 87, 6, 0.795);
+=======
     background-color:#4c7501c5;
+>>>>>>> c3700fe90650cb47d7f5405686d7a914b4ffcc50
     border: 2px solid rgb(8, 8, 8);
     text-align: center;
     align-items: center;

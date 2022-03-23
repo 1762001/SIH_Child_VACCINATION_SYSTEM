@@ -94,8 +94,8 @@ function NAvbar(props) {
           onChange={handleChange} name="city"/>
           <button type="danger" className="nav_btn" onClick={handleSubmit}><i class="fa fa-search"></i></button>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <button className="nav_btn" onClick={routeadmin}>ForAdmin</button>
-            <button className="nav_btn" onClick={routecenter}>ForCenter</button>
+            <button className="nav_btn" onClick={routeadmin}>Hospital</button>
+            <button className="nav_btn" onClick={routecenter}>User</button>
           </Form>
         </Navbar.Collapse>
       </Navbar>

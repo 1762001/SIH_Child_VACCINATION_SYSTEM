@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {Link, useHistory } from "react-router-dom";
+import "./AdminLogin.css"
 
 const AdminLogin = (props) => {
   const [credentials, setCredentials]=useState({email: "",password:""});
@@ -37,13 +38,16 @@ const AdminLogin = (props) => {
     console.log(json); 
   };
   return (
-    <div>
-      <form onSubmit={handleSubmit} className="my-3">
-        <div className="form-group">
-          <label htmlFor="email">Email address</label>
+    <div className="container">
+      <div className="screen">
+        <div className="screen__content">
+        <form onSubmit={handleSubmit} className="login my-3">
+        <div className="login__field form-group">
+          {/* <label htmlFor="email">Email address</label> */}
+          <i class ="login__icon fas fa-user"></i>
           <input
             type="email"
-            className="form-control"
+            className="login__input "
             id="email"
             name="email"
             value={credentials.email}
@@ -51,15 +55,16 @@ const AdminLogin = (props) => {
             placeholder="Enter email"
             onChange={onChange}
           />
-          <small id="emailHelp" className="form-text text-muted">
+          {/* <small id="emailHelp" className="form-text text-muted">
             We'll never share your email with anyone else.
-          </small>
+          </small> */}
         </div>
-        <div className="form-group">
-          <label htmlFor="password">Password</label>
+        <div className="login__field form-group">
+          <i class="login__icon fas fa-lock"></i>
+          {/* <label htmlFor="password">Password</label> */}
           <input
             type="password"
-            className="form-control"
+            className="login__input "
             id="password"
             name="password"
             value={credentials.password}
@@ -70,16 +75,38 @@ const AdminLogin = (props) => {
         
         <button
           type="submit"
-          className="btn btn-primary my-3"
+          className="button login__submit my-3"
           
         >
-          Login
+          <span class="button__text">Log In Now</span>
+          <i class="button__icon fas fa-chevron-right"></i>
+
         </button>
+        <button
+          type="submit"
+          className="button login__submit"
+          
+        >
+          <span class="button__text">Register</span>
+          <i class="button__icon fas fa-chevron-right"></i>
+
+        </button>
+        {/* <p className="mb-0 ">
+         <Link to="admin-registration" className="text-center">Register a new membership</Link>
+       </p> */}
         
       </form>
-      <p className="mb-0">
-         <Link to="admin-registration" className="text-center">Register a new membership</Link>
-       </p>
+      
+      </div>
+      <div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>		
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>
+      </div>
+      
+      
     </div>
   );
 };

@@ -1,11 +1,11 @@
 
 const mongoose = require('mongoose');
-const { Schema } = mongoose;
-
+const { Schema , Types } = mongoose;
+const {ObjectId} = Types
 const ChildSchema = new Schema({
 
     uid:{
-        type:String,
+        type:ObjectId,
         required:true,
         unique:true
     },

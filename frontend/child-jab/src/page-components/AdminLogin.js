@@ -85,6 +85,7 @@ const AdminLogin = (props) => {
         <button
           type="submit"
           className="button login__submit"
+          onClick={() => history.push('/admin-registration')}
           
         >
           <span class="button__text">Register</span>

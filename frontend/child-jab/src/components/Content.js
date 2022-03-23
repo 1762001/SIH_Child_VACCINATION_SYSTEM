@@ -29,15 +29,15 @@ function Content() {
       </div>
     {/* </div>
     </div> */}
-    <div className="content">
+    {/* <div className="content">
     &nbsp;&nbsp;&nbsp;
-    </div>
-  <section className="content">
+    </div> */}
+  {/* <section className="content">
 
-  </section>
-  <div className="content">
+  </section> */}
+  {/* <div className="content">
     <br></br>
-  </div>
+  </div> */}
   
   {/* /.content */}
 {/* </div> */}

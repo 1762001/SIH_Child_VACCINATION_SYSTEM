@@ -36,9 +36,17 @@ const ChildSchema = new Schema({
         required:true
     },
     dob:{
-        type:Date
+        type:Date,
+        required:true
+    },
+    phone:{
+        type:Number,
+        required:true
+    },
+    gender:{
+        type:String,
+        required:true
     }
-    
 
 
 });

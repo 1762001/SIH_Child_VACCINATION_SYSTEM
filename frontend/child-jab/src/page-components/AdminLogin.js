@@ -39,67 +39,76 @@ const AdminLogin = (props) => {
   };
   return (
     <div className="container">
-   <div className="title">Registration</div>
-    <div className="content">
-      <form action="#">
-        <div className="user-details">
-          <div className="input-box">
-            <span className="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required></input>
-          </div>
-          <div className="input-box">
-            <span className="details">Username</span>
-            <input type="text" placeholder="Enter your username" required></input>
-          </div>
-          <div className="input-box">
-            <span className="details">Email</span>
-            <input type="text" placeholder="Enter your email" required></input>
-          </div>
-          <div className="input-box">
-            <span className="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required></input>
-          </div>
-          <div className="input-box">
-            <span className="details">Password</span>
-            <input type="text" placeholder="Enter your password" required></input>
-          </div>
-          <div className="input-box">
-            <span className="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required></input>
-          </div>
+      <div className="screen">
+        <div className="screen__content">
+        <form onSubmit={handleSubmit} className="login my-3">
+        <div className="login__field form-group">
+          {/* <label htmlFor="email">Email address</label> */}
+          <i class ="login__icon fas fa-user"></i>
+          <input
+            type="email"
+            className="login__input "
+            id="email"
+            name="email"
+            value={credentials.email}
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+            onChange={onChange}
+          />
+          {/* <small id="emailHelp" className="form-text text-muted">
+            We'll never share your email with anyone else.
+          </small> */}
         </div>
-        <div className="gender-details">
-          <input type="radio" name="gender" id="dot-1"></input>
-          <input type="radio" name="gender" id="dot-2"></input>
-          <input type="radio" name="gender" id="dot-3"></input>
-          <span className="gender-title">Gender</span>
-          <div className="category">
-            <label form="dot-1">
-            <span className="dot one"></span>
-            <span className="gender">Male</span>
-          </label>
-          <label form="dot-2">
-            <span className="dot two"></span>
-            <span className="gender">Female</span>
-          </label>
-          <label form="dot-3">
-            <span className="dot three"></span>
-            <span className="gender">Prefer not to say</span>
-            </label>
-          </div>
-        
-        
-        <div className="button">
-          <input type="submit" value="Register"></input>
+        <div className="login__field form-group">
+          <i class="login__icon fas fa-lock"></i>
+          {/* <label htmlFor="password">Password</label> */}
+          <input
+            type="password"
+            className="login__input "
+            id="password"
+            name="password"
+            value={credentials.password}
+            placeholder="Password"
+            onChange={onChange}
+          />
         </div>
         
-    </div>
-    
-        </form>
-      </div>
-    </div>
+        <button
+          type="submit"
+          className="button login__submit my-3"
+          
+        >
+          <span class="button__text">Log In Now</span>
+          <i class="button__icon fas fa-chevron-right"></i>
+
+        </button>
+        <button
+          type="submit"
+          className="button login__submit"
+          onClick={() => history.push('/admin-registration')}
+          
+        >
+          <span class="button__text">Register</span>
+          <i class="button__icon fas fa-chevron-right"></i>
+
+        </button>
+        {/* <p className="mb-0 ">
+         <Link to="admin-registration" className="text-center">Register a new membership</Link>
+       </p> */}
+        
+      </form>
       
-   
+      </div>
+      <div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>		
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>
+      </div>
+      
+      
+    </div>
   );
 };
 

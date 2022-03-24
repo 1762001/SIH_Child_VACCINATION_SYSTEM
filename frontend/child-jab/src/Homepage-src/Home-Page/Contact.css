@@ -1,5 +1,5 @@
 .contact{
-    background-color: #bb57e9b0;
+    background-color: #a416e6b0;
     color: rgb(250, 250, 250);
     margin-top: -8px;
     font-weight: 20px;
@@ -14,5 +14,7 @@
 }
 .image-contact img{
     border-radius: 50%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     
 }

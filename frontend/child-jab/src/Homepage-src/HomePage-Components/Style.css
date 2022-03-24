@@ -7,6 +7,9 @@
 .bold-nav {
     color: white !important;
 }
+.bold-nav :hover{
+    color: #a416e6b0 !important;
+}
 
 .nav_bg {
     align-items: flex-end;
@@ -19,9 +22,12 @@
 }
 
 .nav_text {
-    font-family: 'Sarina', cursive;
+    font-family: 'san-serif', cursive;
     font-weight: 400;
+    color: rgb(252, 251, 249) !important;
 }
+
+
 
 .mr-auto {
     font-size: 18px;
@@ -37,11 +43,16 @@
     font-weight: 700;
     cursor: pointer;
     background-color: rgba(166, 156, 168, 0.61);
+    padding: 4px;
+    transition: ease-out all 0.3s;
     
 }
 
 .nav_btn:hover {
-    background-color: #7a18a3d7;
+    background-color: #f7f6f8d7;
+    padding: 6px;
+    border-radius: 20px;
+    
 }
 
 .nav_btn:active {

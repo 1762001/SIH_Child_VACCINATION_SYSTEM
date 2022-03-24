@@ -48,7 +48,7 @@ const AdminRegistration = (props) => {
           {/* <label htmlFor="name" className="form-label">
             Name
           </label> */}
-          <i class ="login__icon fas fa-user"></i>
+          <i className ="login__icon fas fa-user"></i>
           <input
             type="text"
             className="login__input"
@@ -65,7 +65,7 @@ const AdminRegistration = (props) => {
           {/* <label htmlFor="email" className="form-label">
             Email address
           </label> */}
-          <i class="login__icon fas fa-envelope" ></i>
+          <i className="login__icon fas fa-envelope" ></i>
           <input
             type="email"
             className="login__input"
@@ -81,7 +81,7 @@ const AdminRegistration = (props) => {
           {/* <label htmlFor="password" className="form-label">
             Password
           </label> */}
-          <i class="login__icon fas fa-lock"></i>
+          <i className="login__icon fas fa-lock"></i>
           <input
             type="password"
             className="login__input"
@@ -97,7 +97,7 @@ const AdminRegistration = (props) => {
           {/* <label htmlFor="cpassword" className="form-label">
             Confirm Password
           </label> */}
-          <i class="login__icon fas fa-lock"></i>
+          <i className="login__icon fas fa-lock"></i>
           <input
             type="password"
             className="login__input"
@@ -113,7 +113,7 @@ const AdminRegistration = (props) => {
           {/* <label htmlFor="address" className="form-label">
             Address
           </label> */}
-          <i class="login__icon fas fa-address-card" ></i>
+          <i className="login__icon fas fa-address-card" ></i>
           <input
             type="text"
             className="login__input"
@@ -131,7 +131,7 @@ const AdminRegistration = (props) => {
           {/* <label htmlFor="city" className="form-label">
             City
           </label> */}
-          <i class="login__icon fas fa-city"></i>
+          <i className="login__icon fas fa-city"></i>
           <input
             type="text"
             className="login__input"
@@ -148,7 +148,7 @@ const AdminRegistration = (props) => {
           {/* <label htmlFor="pincode" className="form-label">
             Pincode
           </label> */}
-          <i class="login__icon fas fa-map-pin" ></i>
+          <i className="login__icon fas fa-map-pin" ></i>
           <input
             type="number"
             className="login__input"
@@ -169,17 +169,17 @@ const AdminRegistration = (props) => {
           className="button login__submit my-3"
           
         >
-          <span class="button__text">Submit</span>
-          <i class="button__icon fas fa-chevron-right"></i>
+          <span className="button__text">Submit</span>
+          <i className="button__icon fas fa-chevron-right"></i>
 
         </button>
       </form>
         </div>
-        <div class="screen__background">
-			<span class="screen__background__shape screen__background__shape4"></span>
-			<span class="screen__background__shape screen__background__shape3"></span>		
-			<span class="screen__background__shape screen__background__shape2"></span>
-			<span class="screen__background__shape screen__background__shape1"></span>
+        <div className="screen__background">
+			<span className="screen__background__shape screen__background__shape4"></span>
+			<span className="screen__background__shape screen__background__shape3"></span>		
+			<span className="screen__background__shape screen__background__shape2"></span>
+			<span className="screen__background__shape screen__background__shape1"></span>
 		</div>
       </div>
       

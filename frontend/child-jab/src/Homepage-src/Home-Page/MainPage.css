@@ -1,5 +1,5 @@
 .MainPage{
-    background-color: #718502c7;
+    background: linear-gradient(90deg, #a267b4, #621880);
     min-height: 100vh;
     display: flex;
     flex-direction: column;

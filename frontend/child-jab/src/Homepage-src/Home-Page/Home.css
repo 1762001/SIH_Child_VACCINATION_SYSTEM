@@ -11,7 +11,7 @@
     background-color: white ;
 }
 .getstarted_btn:hover{
-    background-color: rgba(87, 5, 163, 0.664);
+    background-color: rgba(141, 143, 8, 0.664);
 }
 .getstarted_btn:active {
     
@@ -52,7 +52,7 @@
     font-weight: 800;
     font-size: 60px;
     font-family: 'Baloo 2', cursive;
-    color: rgb(120, 4, 253);
+    color: rgba(177, 180, 11, 0.822);
     background: rgba(10, 10, 10, 0.842);
     border-radius: 20px;
     
@@ -61,8 +61,8 @@
     font-size: 20px;
     font-weight: 600;
     font-family: 'Baloo 2', cursive;
-    color: rgb(29, 59, 233);
-    background: rgba(243, 244, 250, 0.842);
+    color: rgb(164, 192, 5);
+    background: rgba(7, 7, 7, 0.842);
 }
 .text_head{
     border: 1.5px solid black;

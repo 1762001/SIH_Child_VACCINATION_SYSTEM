@@ -22,7 +22,8 @@ router.post(
         body("pincode").isLength({ min: 6 }),
         body("dob").isDate({min:0}),
         body("phone","Enter a valid number").isLength({min:10}),
-        body("gender")
+        body("gender"),
+        body("birth_hospital")
     ],
     async (req, res) => {
         let success = false;
@@ -55,6 +56,7 @@ router.post(
                 dob:req.body.dob,
                 phone:req.body.phone,
                 gender:req.body.gender,
+                birth_hospital:req.body.birth_hospital,
             });
 
             const data = {

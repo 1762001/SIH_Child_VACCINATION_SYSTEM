@@ -46,6 +46,10 @@ const ChildSchema = new Schema({
     gender:{
         type:String,
         required:true
+    },
+    birth_hospital:{
+        type:String,
+        required:true
     }
 
 

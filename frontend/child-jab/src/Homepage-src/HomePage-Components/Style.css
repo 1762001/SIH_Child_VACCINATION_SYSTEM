@@ -10,7 +10,7 @@
 
 .nav_bg {
     align-items: flex-end;
-    background-color: #427005cc;
+    background-color: #400570c7;
     
     border: 2px solid rgb(8, 8, 8);
     text-align: center;
@@ -36,12 +36,12 @@
     box-shadow: 4px 4px;
     font-weight: 700;
     cursor: pointer;
-    background-color: rgba(252, 248, 248, 0.61);
-    border-radius: 20px;
+    background-color: rgba(166, 156, 168, 0.61);
+    
 }
 
 .nav_btn:hover {
-    background-color: #75cc04d7;
+    background-color: #7a18a3d7;
 }
 
 .nav_btn:active {

@@ -8,13 +8,13 @@ function Footer() {
     <p>© 2022 by Child Care Center. All rights reserved.</p>
     
     <p className="mb-0">
-      <Link to="/about-us" style={{ color: "Blue" }}>About Us</Link>
+      <Link to="/about-us" style={{ color: "White" }}>About Us</Link>
       </p>
       <p className="mb-0">
-      <Link to="/contact-us" style={{ color: "Blue" }}>Contact Us</Link>
+      <Link to="/contact-us" style={{ color: "White" }}>Contact Us</Link>
       </p>
       <p className="mb-0">
-      <Link to="/ourvalues" style={{ color: "Blue" }}>Careers</Link>
+      <Link to="/ourvalues" style={{ color: "White" }}>Careers</Link>
       </p>
    
     <ul>

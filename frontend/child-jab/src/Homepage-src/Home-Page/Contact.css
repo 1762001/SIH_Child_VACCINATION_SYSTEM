@@ -1,7 +1,18 @@
 .contact{
-    background-color: #8ea0ebb0;
+    background-color: #bb57e9b0;
+    color: rgb(250, 250, 250);
+    margin-top: -8px;
+    font-weight: 20px;
+    font-style: bold;
 }
 
 .image-contact {
-    background-color: rgb(157, 255, 255);
+    background-color: rgba(244, 240, 245, 0.705);
+    border-radius: 20px;
+    margin-top: -65px;
+    
+}
+.image-contact img{
+    border-radius: 50%;
+    
 }

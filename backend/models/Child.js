@@ -4,11 +4,7 @@ const { Schema , Types } = mongoose;
 const {ObjectId} = Types
 const ChildSchema = new Schema({
 
-    uid:{
-        type:ObjectId,
-        required:true,
-        unique:true
-    },
+  
     name:{
         type: String,
         required: true
@@ -42,8 +38,19 @@ const ChildSchema = new Schema({
     dob:{
         type:Date,
         required:true
+    },
+    phone:{
+        type:Number,
+        required:true
+    },
+    gender:{
+        type:String,
+        required:true
+    },
+    birth_hospital:{
+        type:String,
+        required:true
     }
-    
 
 
 });

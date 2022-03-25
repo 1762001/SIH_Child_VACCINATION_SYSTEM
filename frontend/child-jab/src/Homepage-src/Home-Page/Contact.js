@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../HomePage-Components/Footer";
 import NAvbar from "../HomePage-Components/NAvbar";
 import {Col, Container, Row} from 'react-bootstrap'
-import contactus from '../img/contactus.png'
+import contactus from '../img/contactus.jpg'
 import './Contact.css'
 function Contact() {
   return (
@@ -26,7 +26,7 @@ function Contact() {
       </div>
 
       <div>
-        <h4>Admin contact : +91 7698 554 321</h4>
+        <h4>Admin contact : +91 7091723903</h4>
         <h4>Customer service : 1800 331 002</h4>
         
       </div>

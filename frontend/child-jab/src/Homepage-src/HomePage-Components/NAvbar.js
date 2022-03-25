@@ -84,12 +84,19 @@ function NAvbar(props) {
             <Nav.Link href="/contact-us">
               <b className="bold-nav">Contact Us</b>
             </Nav.Link>
+
+
           
          <NavDropdown  title="My Account" id="collasible-nav-dropdown" >
          <NavDropdown.Item>Signed In as : {login!==null && login.full_name}</NavDropdown.Item>
          <NavDropdown.Item href="/logout">Log-Out</NavDropdown.Item>
          </NavDropdown>
           </Nav>
+
+          <Nav.Link href="/contact-us">
+              <b className="bold-nav">Contact Us</b>
+            </Nav.Link>
+            
           <Form inline>
           <Form.Control style={{ width: "19rem" }} type="text" placeholder="Search nearby centers..." className=" mr-sm-1" 
           onChange={handleChange} name="city"/>

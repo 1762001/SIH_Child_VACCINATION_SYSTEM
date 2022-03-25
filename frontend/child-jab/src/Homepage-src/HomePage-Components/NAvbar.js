@@ -93,7 +93,7 @@ function NAvbar(props) {
          </NavDropdown>
           </Nav>
 
-            <Nav.Link href="/contact-us">
+            <Nav.Link href="/donation.js">
               <b className="bold-nav">Donation</b>
             </Nav.Link>
           <Form inline>

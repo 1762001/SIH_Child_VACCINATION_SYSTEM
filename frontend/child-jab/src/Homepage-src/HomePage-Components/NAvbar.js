@@ -98,7 +98,7 @@ function NAvbar(props) {
             </Nav.Link>
 
             <Nav.Link href="/contact-us">
-              <b className="bold-nav">Contact Us</b>
+              <b className="bold-nav">Donation</b>
             </Nav.Link>
           <Form inline>
           <Form.Control style={{ width: "19rem" }} type="text" placeholder="Search nearby centers..." className=" mr-sm-1" 

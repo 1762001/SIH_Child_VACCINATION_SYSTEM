@@ -72,6 +72,7 @@ function NAvbar(props) {
         <NavDropdown.Item href="/flow">How to Choose a center</NavDropdown.Item>
         {/* <NavDropdown.Item href="/testimonials">Testimonials</NavDropdown.Item> */}
         <NavDropdown.Divider />
+        <NavDropdown.Item href="/diet">Diet</NavDropdown.Item>
         <NavDropdown.Item href="/host-login">Sign In</NavDropdown.Item>
         </NavDropdown>
             {/* <Nav.Link href="/gallery">
@@ -81,8 +82,8 @@ function NAvbar(props) {
         <NavDropdown.Item href="/about-us">Who We are</NavDropdown.Item>
         <NavDropdown.Item href="/ourvalues">Our Values</NavDropdown.Item>
         </NavDropdown>
-            <Nav.Link href="/contact-us">
-              <b className="bold-nav">Contact Us</b>
+            <Nav.Link href="/donation">
+              <b className="bold-nav">Donate here</b>
             </Nav.Link>
             <Nav.Link href="/book">
               <b className="bold-nav">Book vaccine</b>
@@ -96,9 +97,7 @@ function NAvbar(props) {
          </NavDropdown>
           </Nav>
 
-          <Nav.Link href="/contact-us">
-              <b className="bold-nav">Contact Us</b>
-            </Nav.Link>
+          
             
           <Form inline>
           <Form.Control style={{ width: "19rem" }} type="text" placeholder="Search nearby centers..." className=" mr-sm-1" 

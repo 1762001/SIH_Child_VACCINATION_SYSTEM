@@ -70,7 +70,7 @@ function NAvbar(props) {
             </Nav.Link>
             <NavDropdown title="For Parents" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/flow">How to Choose a center</NavDropdown.Item>
-        {/* <NavDropdown.Item href="/testimonials">Testimonials</NavDropdown.Item> */}
+         <NavDropdown.Item href="/diet">Diet</NavDropdown.Item> 
         <NavDropdown.Divider />
         <NavDropdown.Item href="/host-login">Sign In</NavDropdown.Item>
         </NavDropdown>

@@ -32,6 +32,7 @@ import OurValues from './Homepage-src/Home-Page/OurValues';
 import FeedbackForm from './Homepage-src/Home-Page/FeedbackForm';
 import ParentsForm from './Homepage-src/Home-Page/ParentsForm';
 import ParentsForgotPassword from './page-components/ParentsForgotPassword';
+import Diet from './Homepage-src/HomePage-Components/Diet';
 
 
 
@@ -97,8 +98,8 @@ function App() {
           <Route path="/search-results" exact="true">
           <SearchResults></SearchResults>
           </Route>
-          <Route path="/testimonials" exact="true">
-          <Testimonials></Testimonials>
+          <Route path="/diet" exact="true">
+          <Diet />
           </Route>
           <Route path="/ourvalues" exact="true">
           <OurValues></OurValues>

@@ -8,12 +8,12 @@
     color: white !important;
 }
 .bold-nav :hover{
-    color: #d893f8b0 !important;
+    color: #a416e6b0 !important;
 }
 
 .nav_bg {
     align-items: flex-end;
-    background-color: #862fcec7;
+    background-color: #400570c7;
     
     border: 2px solid rgb(8, 8, 8);
     text-align: center;

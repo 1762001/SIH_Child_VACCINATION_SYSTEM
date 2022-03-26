@@ -1,15 +1,21 @@
 import React from "react";
 import "./Diet.css";
 import NAvbar from "../HomePage-Components/NAvbar";
+import {  useHistory } from "react-router-dom";
 
 function Diet() {
+  
+    var history = useHistory();
+  
   return (
     <>
       <NAvbar></NAvbar>
       <div className="diet">
         <div className="containerm">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4" onClick={()=>{
+              history.push('/PregCard')
+            }}>
               <div className="images">
                 {" "}
                 <img
@@ -20,7 +26,9 @@ function Diet() {
                 <p className="img-overlay-text">Pregnant Lady Diet</p>{" "}
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" onClick={()=>{
+              history.push('/PostPregCard')
+            }}>
               <div className="images">
                 {" "}
                 <img
@@ -31,7 +39,9 @@ function Diet() {
                 <p className="img-overlay-text">Post Pregnancy Diet</p>{" "}
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" onClick={()=>{
+              history.push('/Infant')
+            }}>
               <div className="images">
                 {" "}
                 <img

@@ -107,9 +107,7 @@ function App() {
           <Route path="/search-results" exact="true">
           <SearchResults></SearchResults>
           </Route>
-          <Route path="/testimonials" exact="true">
-          <Testimonials></Testimonials>
-          </Route>
+        
 
           <Route path="/PregCard" exact="true">
           <PregCard/>
@@ -127,8 +125,7 @@ function App() {
           <Book_Vaccine />
           </Route>
           
-=======
->>>>>>> 51d9c48c87ab3e7fcd0f5a747c8bd48695fd8d28
+
           <Route path="/ourvalues" exact="true">
           <OurValues></OurValues>
           </Route>

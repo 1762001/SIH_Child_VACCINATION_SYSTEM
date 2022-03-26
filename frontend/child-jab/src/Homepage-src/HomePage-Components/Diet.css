@@ -23,6 +23,7 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+   
 }
 
 .images:after {
@@ -62,7 +63,7 @@
     transition: .8s
 }
 
-i {
+.img-overlay-text {
     position: absolute;
     z-index: 2;
     top: 50%;
@@ -75,7 +76,7 @@ i {
     transition-timing-function: ease-in
 }
 
-.images:hover i {
+.images:hover .img-overlay-text{
     transform: translate(-50%, -50%);
     transition-timing-function: ease
 } 

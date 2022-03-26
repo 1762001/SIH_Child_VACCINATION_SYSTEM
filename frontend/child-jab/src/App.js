@@ -32,7 +32,7 @@ import OurValues from './Homepage-src/Home-Page/OurValues';
 import FeedbackForm from './Homepage-src/Home-Page/FeedbackForm';
 import ParentsForm from './Homepage-src/Home-Page/ParentsForm';
 import ParentsForgotPassword from './page-components/ParentsForgotPassword';
-import Diet from './Homepage-src/HomePage-Components/Diet';
+import Donation from './Homepage-src/Home-Page/Donation'
 
 
 
@@ -101,6 +101,10 @@ function App() {
           <Route path="/diet" exact="true">
           <Diet />
           </Route>
+          <Route path="/donation" exact="true">
+          <Donation />
+          </Route>
+          
           <Route path="/ourvalues" exact="true">
           <OurValues></OurValues>
           </Route>

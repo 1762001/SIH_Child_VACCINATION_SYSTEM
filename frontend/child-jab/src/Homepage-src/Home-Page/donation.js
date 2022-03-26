@@ -1,15 +1,20 @@
-import React from "react";
+import React from 'react'
 import Footer from "../HomePage-Components/Footer";
 import NAvbar from "../HomePage-Components/NAvbar";
 import {Col, Container, Row} from 'react-bootstrap'
 import contactus from '../img/contactus.jpg'
 import './Contact.css'
 
-function Contact() {
+// //  Bootstrap core CSS
+// <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+//     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+function donation() {
   return (
     <>
-<div className="container_first container-fluid">
-      <div className="img_about image-contact" >
+    <div className="donation">
+        <h1>hiii</h1>
+        <div className="img_about image-contact" >
         {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFQbhjC9y7M7VLISpfH12L8s56j6wweweF9w&usqp=CAU"></img> */}
       <img src={contactus}></img>
       </div>
@@ -40,16 +45,10 @@ function Contact() {
       
     </Col>
     </Row>
+        
     </div>
-
-    
-    
     </>
- 
-    
-  );
+  )
 }
 
-export default Contact;
-
-
+export default donation

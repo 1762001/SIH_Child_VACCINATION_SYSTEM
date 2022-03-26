@@ -3,7 +3,7 @@ const { Schema , Types } = mongoose;
 const {ObjectId} = Types
 
 const VaccineSchema = new Schema({
-    name:{
+    vaccinename:{
         type:String,
         required:true
         
@@ -13,14 +13,14 @@ const VaccineSchema = new Schema({
     },
     vaccinated:{
         type:Boolean,
-        required:true
+        // required:true
     },
     days_left : {
 
         type:Number,
-        required:true
+        // required:true
     },
-    notification_sent:{
+    notifications_sent:{
         type:Boolean,
         required:true
     }

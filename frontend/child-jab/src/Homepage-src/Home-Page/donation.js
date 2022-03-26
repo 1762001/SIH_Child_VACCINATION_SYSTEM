@@ -1,53 +1,48 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
+// const history = useHistory()
+// import {Link, useHistory} from "react-router-dom";
+import './Donation.css'
 
-import {Col, Container, Row} from 'react-bootstrap'
-import contactus from '../img/contactus.jpg'
-import './Contact.css'
 
-// //  Bootstrap core CSS
-// <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-//     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+// <><link rel="preconnect" href="https://fonts.gstatic.com" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" /></>
 
-function Donation() {
-  return (
-    <>
-    <div className="donation">
-        <h1>hiii</h1>
-        <div className="img_about image-contact" >
-        {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFQbhjC9y7M7VLISpfH12L8s56j6wweweF9w&usqp=CAU"></img> */}
-      <img src={contactus}></img>
-      </div>
-      <div>
-        <br></br>
-        <h1>Contact us for any Query</h1>
-      </div>
-      </div>
-      <div className="container_first contact">
-        <Row>
-      <Col>
-      <div>
-        <h3>We are 24*7 available for support and help !</h3>
-      </div>
+// const donation = (props) => {
+//   const [credentials, setCredentials]=useState({email: "",password:""});
+//   let history = useHistory();
+//   const onChange = (e) => {
+//     // here we are using spread property 
+//     //  In this whatever property is present will be there and the overeride or add the new one
+//     setCredentials({...credentials,[e.target.name]: e.target.value})
+// }
 
-      <div>
-        <h4>Admin contact : +91 7091723903</h4>
-        <h4>Customer service : 1800 331 002</h4>
-        
-      </div>
-      </Col>
-      <Col>
-      <div className="container_fluid ">
-       <h3>You can also E-mail us</h3>  
-       </div>
-      <h4>E-mail : admin123@gmail.com</h4>
-      <h4>Our team will usually respond in 48 hours</h4>
-      
-    </Col>
-    </Row>
-        
+export function Donation() { 
+  return ( 
+    <div className='donation1'> 
+    <div class="background1">
+        <div class="shape"></div>
+        <div class="shape"></div>
     </div>
-    </>
-  )
+      <form action="/api/donation/create" className='userForm1'>
+        <h3>Donate Here</h3>
+
+        <label className='label1' for="username">Full Name</label>
+        <input className='input1' type="text" id="username"/>
+
+        <label className='label1' for="number">Phone No.</label>
+        <input className='input1' type="phone" id="phone"/>
+
+        <label className='label1' for="number">Amount</label>
+        <input className='input1' type="number" id="amount"/>
+
+        <Link to="/about-us" className="btn btn-primary btn1">Sign up</Link>
+
+        {/* <button type="submit" onClick={() => history.push('/about-us')}>Donate Now</button> */}
+        
+      </form>
+  </div> 
+  ); 
 }
 
-export default Donation
+export default Donation;

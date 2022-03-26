@@ -4,11 +4,11 @@ import NAvbar from "../HomePage-Components/NAvbar";
 import {Col, Container, Row} from 'react-bootstrap'
 import contactus from '../img/contactus.jpg'
 import './Contact.css'
-
 function Contact() {
   return (
     <>
-<div className="container_first container-fluid">
+    <NAvbar></NAvbar>    
+    <div className="container_first container-fluid">
       <div className="img_about image-contact" >
         {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFQbhjC9y7M7VLISpfH12L8s56j6wweweF9w&usqp=CAU"></img> */}
       <img src={contactus}></img>
@@ -41,15 +41,16 @@ function Contact() {
     </Col>
     </Row>
     </div>
-
     
+    <br></br>
+    <br></br>
+    <br></br>
     
-    </>
+    <Footer></Footer>
+    
  
-    
+    </>
   );
 }
 
 export default Contact;
-
-

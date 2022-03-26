@@ -25,14 +25,14 @@ function Testimonials(props) {
     return (
         <>
           <NAvbar></NAvbar> 
-          {/* <div className="content-header">
+          <div className="content-header">
               <div className="container-fluid">
                   <div className="row mb-2">
                  </div>
             </div>
-        </div> */}
+        </div>
          
-          {/* <div>
+          <div>
             <Row>
               <Col>
               <span className="block-example border border-dark">
@@ -49,9 +49,9 @@ function Testimonials(props) {
               </span>
               </Col>
             </Row>
-          </div> */}
+          </div>
 
-          {/* <Carousel
+          <Carousel
         showArrows={true}
         infiniteLoop={true}
         showThumbs={false}
@@ -77,20 +77,7 @@ function Testimonials(props) {
         )
       })}
         
-      </Carousel> */}
-      <div className="containerm">
-    <div className="row">
-        <div className="col-md-4">
-            <div className="image"> <img src="https://i.imgur.com/GV2rUU0.jpg" alt=""> </img> <i className="fa fa-search fa-3x"> </i> </div>
-        </div>
-        <div className="col-md-4">
-            <div className="image"> <img src="https://i.imgur.com/MMfaOcL.jpg" alt=""> </img> <i className="fa fa-search fa-3x"> </i> </div>
-        </div>
-        <div className="col-md-4">
-            <div className="image"> <img src="https://i.imgur.com/nOeI05p.jpg" alt=""> </img> <i className="fa fa-search fa-3x"> </i> </div>
-        </div>
-    </div>
-</div>
+      </Carousel>
      
       
       <div className="container_first">
@@ -101,19 +88,19 @@ function Testimonials(props) {
     )
 }
 
-// const mapStateToProps = (state)=>{
-//   return{
-//       feedback : state.feedbackReducer
-//   }
-// }
+const mapStateToProps = (state)=>{
+  return{
+      feedback : state.feedbackReducer
+  }
+}
 
-// const mapDispatchToProps = (dispatch) =>{
-//   return {
-//       getallFeedback : (centerId)=> dispatch(getFeedback(centerId)),
-//   }
-// }
+const mapDispatchToProps = (dispatch) =>{
+  return {
+      getallFeedback : (centerId)=> dispatch(getFeedback(centerId)),
+  }
+}
 
-// const connectFeedback = connect(mapStateToProps,mapDispatchToProps)
+const connectFeedback = connect(mapStateToProps,mapDispatchToProps)
 
-export default Testimonials
+export default connectFeedback(Testimonials)
 

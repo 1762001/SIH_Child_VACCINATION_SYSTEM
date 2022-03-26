@@ -27,16 +27,21 @@ import About from './Homepage-src/Home-Page/About'
 import Flow from './Homepage-src/Home-Page/Flow'
 import Search from './Homepage-src/Home-Page/Search';
 import SearchResults from './Homepage-src/HomePage-Components/SearchResults';
-import Testimonials from './Homepage-src/Home-Page/Testimonials';
+
 import OurValues from './Homepage-src/Home-Page/OurValues';
 import FeedbackForm from './Homepage-src/Home-Page/FeedbackForm';
 import ParentsForm from './Homepage-src/Home-Page/ParentsForm';
 import ParentsForgotPassword from './page-components/ParentsForgotPassword';
+
 import Donation from './Homepage-src/Home-Page/Donation';
 import Diet from './Homepage-src/HomePage-Components/Diet';
 import PregCard from './Homepage-src/HomePage-Components/DietChart/PregCard';
 import PostPreg from './Homepage-src/HomePage-Components/DietChart/PostPreg';
 import Infant from './Homepage-src/HomePage-Components/DietChart/Infant';
+import './Homepage-src/Home-Page/Donation.css';
+import './Homepage-src/Home-Page/Book_Vaccine.css';
+import Book_Vaccine from './Homepage-src/Home-Page/Book_Vaccine';
+
 
 
 
@@ -102,9 +107,10 @@ function App() {
           <Route path="/search-results" exact="true">
           <SearchResults></SearchResults>
           </Route>
-          <Route path="/diet" exact="true">
-          <Diet />
+          <Route path="/testimonials" exact="true">
+          <Testimonials></Testimonials>
           </Route>
+
           <Route path="/PregCard" exact="true">
           <PregCard/>
           </Route>
@@ -117,7 +123,12 @@ function App() {
           <Route path="/donation" exact="true">
           <Donation />
           </Route>
+          <Route path="/book" exact="true">
+          <Book_Vaccine />
+          </Route>
           
+=======
+>>>>>>> 51d9c48c87ab3e7fcd0f5a747c8bd48695fd8d28
           <Route path="/ourvalues" exact="true">
           <OurValues></OurValues>
           </Route>

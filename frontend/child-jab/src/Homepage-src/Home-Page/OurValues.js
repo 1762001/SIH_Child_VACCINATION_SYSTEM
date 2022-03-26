@@ -5,6 +5,7 @@ import './About.css'
 import ourvalues from '../img/ourvalues2.png'
 import ourvalues2 from '../img/ourvalues3.jpg'
 import {Row, Image} from 'react-bootstrap'
+import './OurValues.css'
 
 function OurValues() {
     return (
@@ -27,7 +28,7 @@ function OurValues() {
             <Row>
               
               <span className="block-example border border-primary">
-                <div>
+                <div className='Our'>
                 <h3>Child Care Loves the Community</h3>
            <h5>At ChildCare Education, we know learning begins at birth and that the first five years of life are the most critical in a child’s development. That’s why, through our community partnerships, we enhance educational opportunities for children and families by providing volunteer, in-kind, and financial contributions. 
            The Value of Early Childhood Education

@@ -32,7 +32,11 @@ import OurValues from './Homepage-src/Home-Page/OurValues';
 import FeedbackForm from './Homepage-src/Home-Page/FeedbackForm';
 import ParentsForm from './Homepage-src/Home-Page/ParentsForm';
 import ParentsForgotPassword from './page-components/ParentsForgotPassword';
-import Donation from './Homepage-src/Home-Page/Donation'
+import Donation from './Homepage-src/Home-Page/Donation';
+import Diet from './Homepage-src/HomePage-Components/Diet';
+import PregCard from './Homepage-src/HomePage-Components/DietChart/PregCard';
+import PostPreg from './Homepage-src/HomePage-Components/DietChart/PostPreg';
+import Infant from './Homepage-src/HomePage-Components/DietChart/Infant';
 
 
 
@@ -98,8 +102,17 @@ function App() {
           <Route path="/search-results" exact="true">
           <SearchResults></SearchResults>
           </Route>
-          <Route path="/testimonials" exact="true">
-          <Testimonials></Testimonials>
+          <Route path="/diet" exact="true">
+          <Diet />
+          </Route>
+          <Route path="/PregCard" exact="true">
+          <PregCard/>
+          </Route>
+          <Route path="/PostPregCard" exact="true">
+          <PostPreg/>
+          </Route>
+          <Route path="/Infant" exact="true">
+          <Infant/>
           </Route>
           <Route path="/donation" exact="true">
           <Donation />

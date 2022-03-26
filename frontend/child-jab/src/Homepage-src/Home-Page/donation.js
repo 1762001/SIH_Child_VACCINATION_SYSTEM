@@ -1,6 +1,5 @@
 import React from 'react'
-import Footer from "../HomePage-Components/Footer";
-import NAvbar from "../HomePage-Components/NAvbar";
+
 import {Col, Container, Row} from 'react-bootstrap'
 import contactus from '../img/contactus.jpg'
 import './Contact.css'
@@ -9,7 +8,7 @@ import './Contact.css'
 // <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 //     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-function donation() {
+function Donation() {
   return (
     <>
     <div className="donation">
@@ -51,4 +50,4 @@ function donation() {
   )
 }
 
-export default donation
+export default Donation

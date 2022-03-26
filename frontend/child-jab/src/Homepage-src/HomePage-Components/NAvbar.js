@@ -93,9 +93,7 @@ function NAvbar(props) {
          </NavDropdown>
           </Nav>
 
-          <Nav.Link href="/donation">
-              <b className="bold-nav">Extra</b>
-            </Nav.Link>
+         
             <Nav.Link href="/donation">
               <b className="bold-nav">Donation</b>
             </Nav.Link>

@@ -95,7 +95,7 @@ const Slider = () => {
               src={
                 "https://www.unicef.org/rosa/sites/unicef.org.rosa/files/styles/press_release_feature/public/UN0300751.JPG?itok=tXw2y1WA"
               }
-              className="d-block w-10"
+              className="d-block w-100"
               alt="..."
             />
           </div>

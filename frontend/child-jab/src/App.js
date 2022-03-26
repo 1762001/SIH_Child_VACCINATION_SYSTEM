@@ -32,7 +32,7 @@ import OurValues from './Homepage-src/Home-Page/OurValues';
 import FeedbackForm from './Homepage-src/Home-Page/FeedbackForm';
 import ParentsForm from './Homepage-src/Home-Page/ParentsForm';
 import ParentsForgotPassword from './page-components/ParentsForgotPassword';
-import Donation from './Homepage-src/Home-Page/Donation'
+import Donation from './Homepage-src/Home-Page/Donation';
 
 
 

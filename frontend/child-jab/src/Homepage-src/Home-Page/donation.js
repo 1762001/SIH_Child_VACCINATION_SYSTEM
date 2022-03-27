@@ -28,15 +28,15 @@ export function Donation() {
         <h3>Donate Here</h3>
 
         <label className='label1' for="username">Full Name</label>
-        <input className='input1' type="text" id="username"/>
+        <input className='input1' type="text" id="username" required/>
 
         <label className='label1' for="number">Phone No.</label>
-        <input className='input1' type="phone" id="phone"/>
+        <input className='input1' type="phone" id="phone" required/>
 
         <label className='label1' for="number">Amount</label>
-        <input className='input1' type="number" id="amount"/>
+        <input className='input1' type="number" id="amount" required/>
 
-        <Link to="/about-us" className="btn btn-primary btn1">Sign up</Link>
+        <Link to="/success" className="btn btn-primary btn1">Sign up</Link>
 
         {/* <button type="submit" onClick={() => history.push('/about-us')}>Donate Now</button> */}
         

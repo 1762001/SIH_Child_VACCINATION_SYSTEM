@@ -39,6 +39,8 @@ import PregCard from './Homepage-src/HomePage-Components/DietChart/PregCard';
 import PostPreg from './Homepage-src/HomePage-Components/DietChart/PostPreg';
 import Infant from './Homepage-src/HomePage-Components/DietChart/Infant';
 import Book_Vaccine from './Homepage-src/Home-Page/Book_Vaccine';
+import Dashboard from './Homepage-src/Home-Page/Dashboard';
+
 
 
 
@@ -64,7 +66,7 @@ function App() {
           <CenterLogin></CenterLogin>
           </Route>
           <Route path="/host-login">
-          <EndUserLogin></EndUserLogin>
+          <Dashboard />
           </Route>
           <Route path="/admin-registration">
             <AdminRegistration></AdminRegistration>

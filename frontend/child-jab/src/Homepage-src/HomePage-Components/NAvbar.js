@@ -80,7 +80,7 @@ function NAvbar(props) {
             </Nav.Link> */}
             <NavDropdown title="About" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/about-us">Who We are</NavDropdown.Item>
-        <NavDropdown.Item href="/ourvalues">Our Values</NavDropdown.Item>
+        <NavDropdown.Item href="https://celebrated-longma-a2d06d.netlify.app">Know Your children Vaccine Schedule</NavDropdown.Item>
         </NavDropdown>
             <Nav.Link href="/donation">
               <b className="bold-nav">Donate here</b>

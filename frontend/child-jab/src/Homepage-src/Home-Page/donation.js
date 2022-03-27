@@ -24,7 +24,7 @@ export function Donation() {
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-      <form className='userForm1'>
+      <form action="/api/donation/create" className='userForm1'>
         <h3>Donate Here</h3>
 
         <label className='label1' for="username">Full Name</label>

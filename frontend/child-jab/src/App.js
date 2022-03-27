@@ -37,6 +37,7 @@ import Diet from './Homepage-src/HomePage-Components/Diet';
 import PregCard from './Homepage-src/HomePage-Components/DietChart/PregCard';
 import PostPreg from './Homepage-src/HomePage-Components/DietChart/PostPreg';
 import Infant from './Homepage-src/HomePage-Components/DietChart/Infant';
+import Success from './Homepage-src/Home-Page/success';
 
 
 
@@ -116,6 +117,10 @@ function App() {
           </Route>
           <Route path="/donation" exact="true">
           <Donation />
+          </Route>
+
+          <Route path="/success" exact="true">
+            <Success />
           </Route>
           
           <Route path="/ourvalues" exact="true">

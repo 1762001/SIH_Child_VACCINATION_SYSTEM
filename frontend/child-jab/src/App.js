@@ -2,9 +2,9 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Link,
-  Route,
-  Redirect
+  
+  Route
+  
 } from "react-router-dom";
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
@@ -12,7 +12,7 @@ import { routes } from './Data/RouteData';
 import LogoutPage from './page-components/LogoutPage';
 import PrivateRoute from './components/PrivateRouter';
 import CenterLogin from './page-components/CenterLogin';
-import EndUserLogin from './page-components/EndUserLogin';
+
 import AdminForgotPassword from './page-components/AdminForgotPassword';
 import AdminRegistration from './page-components/AdminRegistration';
 import CenterForgotPassword from './page-components/CenterForgotPassword';

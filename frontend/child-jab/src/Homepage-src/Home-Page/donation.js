@@ -10,8 +10,7 @@ export function Donation() {
   
   const [credentials, setCredentials]=useState({DonatorName:"",Phone: "",amount:""}) 
   const onChange = (e) => {
-    // here we are using spread property
-    //  In this whatever property is present will be there and the overeride or add the new one
+   
     setCredentials({ ...credentials, [e.target.name]: e.target.value });
   };
   

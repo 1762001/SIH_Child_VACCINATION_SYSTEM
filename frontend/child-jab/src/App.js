@@ -44,6 +44,7 @@ import Book_Vaccine from './Homepage-src/Home-Page/Book_Vaccine';
 import Admin_Login from './page-components/Admin_Login';
 
 import Dashboard from './Homepage-src/Home-Page/Dashboard';
+import DonationResult from './Homepage-src/Home-Page/DonationResult';
 
 
 
@@ -126,7 +127,9 @@ function App() {
           <Route path="/donation" exact="true">
           <Donation />
           </Route>
-
+          <Route path="/donationres">
+            <DonationResult/>
+          </Route>
           <Route path="/success" exact="true">
             <Success />
           </Route>

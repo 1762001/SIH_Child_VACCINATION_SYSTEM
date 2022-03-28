@@ -65,7 +65,7 @@ export function Donation() {
         <input className='input1' name="amount" type="number" onChange={onChange} id="amount"/>
 
         
-        <button className='btn1' type='submit'>donate</button>
+        <button className='btn1' type='submit'>Donate</button>
         {/* <button type="submit" onClick={() => history.push('/about-us')}>Donate Now</button> */}
         
       </form>

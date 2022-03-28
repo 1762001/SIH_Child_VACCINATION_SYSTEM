@@ -130,4 +130,15 @@ router.post("/getUser",fetchuser, async (req, res) => {
       res.status(500).send("Enternal Server Error");
     }
 });
+
+router.get("/gethospitallist",async(req, res)=>{
+    try {
+        const hospital = await Hospital.find();
+        res.json(hospital.name);
+    }catch (error){
+        console.error(error.message);
+        res.status.send("Internal Server error");
+    }
+})
+
 module.exports = router;

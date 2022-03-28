@@ -38,8 +38,14 @@ import Diet from './Homepage-src/HomePage-Components/Diet';
 import PregCard from './Homepage-src/HomePage-Components/DietChart/PregCard';
 import PostPreg from './Homepage-src/HomePage-Components/DietChart/PostPreg';
 import Infant from './Homepage-src/HomePage-Components/DietChart/Infant';
+import Success from './Homepage-src/Home-Page/success';
 import Book_Vaccine from './Homepage-src/Home-Page/Book_Vaccine';
+
 import Admin_Login from './page-components/Admin_Login';
+
+import Dashboard from './Homepage-src/Home-Page/Dashboard';
+
+
 
 
 
@@ -65,7 +71,7 @@ function App() {
           <CenterLogin></CenterLogin>
           </Route>
           <Route path="/host-login">
-          <EndUserLogin></EndUserLogin>
+          <Dashboard />
           </Route>
           <Route path="/admin-registration">
             <AdminRegistration></AdminRegistration>
@@ -120,6 +126,11 @@ function App() {
           <Route path="/donation" exact="true">
           <Donation />
           </Route>
+
+          <Route path="/success" exact="true">
+            <Success />
+          </Route>
+          
           <Route path="/book" exact="true">
           <Book_Vaccine />
           </Route>

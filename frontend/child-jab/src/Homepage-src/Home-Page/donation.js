@@ -1,21 +1,14 @@
 import React, { useState } from 'react';
+
 import {  useHistory } from 'react-router-dom';
 // import { useHistory } from 'react-router-dom';
 // const history = useHistory()
 // import {Link, useHistory} from "react-router-dom";
+
+// import { Link } from 'react-router-dom';
+
 import './Donation.css'
 
-
-// <><link rel="preconnect" href="https://fonts.gstatic.com" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" /></>
-
-// const donation = (props) => {
-//   const [credentials, setCredentials]=useState({email: "",password:""});
-//   let history = useHistory();
-//   const onChange = (e) => {
-//     // here we are using spread property 
-//     //  In this whatever property is present will be there and the overeride or add the new one
-//     setCredentials({...credentials,[e.target.name]: e.target.value})
-// }
 
 export function Donation() { 
   let history = useHistory();

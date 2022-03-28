@@ -17,27 +17,27 @@ const PregCard = () => {
     <div className="preg-container">
       <div className="parent">
         <div className="preg-content">
-          <div className="card">
+          <div className="card-1">
             <img src={one} alt="lorem" />
           </div>
 
-          <div className="card">
+          <div className="card-1">
             <img src={two} alt="lorem" />
           </div>
 
-          <div className="card">
+          <div className="card-1">
             <img src={three} alt="lorem" />
           </div>
 
-          <div className="card">
+          <div className="card-1">
             <img src={four} alt="lorem" />
           </div>
 
-          <div className="card">
+          <div className="card-1">
             <img src={five} alt="lorem" />
           </div>
 
-          <div className="card">
+          <div className="card-1">
             
               <img   src={six} alt="lorem" />
            

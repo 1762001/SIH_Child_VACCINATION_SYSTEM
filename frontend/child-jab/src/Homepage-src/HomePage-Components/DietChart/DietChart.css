@@ -33,7 +33,7 @@
     flex-direction: row;
     
 }
-.card {
+.card-1 {
     width: 400px;
     height: 280px;
     padding: 0;
@@ -45,11 +45,11 @@
     transition: 0.3s;
   }
   
-  .card * {
+  .card-1 * {
     transition: 0.3s ease all;
   }
   
-  .card img {
+  .card-1 img {
     margin: 0;
     width: 400px;
     height: 280px;
@@ -57,7 +57,7 @@
     display: block;
   }
   
-  .card h3 {
+  .card-1 h3 {
     margin: 0;
     padding: 12px 12px 48px;
     line-height: 32px;
@@ -65,12 +65,12 @@
     font-size: 20px;
   }
   
-  .card .focus-content {
+  .card-1 .focus-content {
     display: block;
     padding: 8px 12px;
   }
   
-  .card p {
+  .card-1 p {
     margin: 0;
     line-height: 1.5;
   }
@@ -83,7 +83,7 @@
       flex-wrap: wrap;
   }
   
-  .card:hover{
+  .card-1:hover{
       cursor: pointer;
       transform: scale(1.5);
      

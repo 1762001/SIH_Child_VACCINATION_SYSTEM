@@ -6,7 +6,7 @@ const { body, validationResult } = require("express-validator");
 
 // Route 1
 //  this is used to fetch all notes of those user which are already login
-router.get("/fetchallnotes", fetchuser, async (req, res) => {
+router.get("/fetchallvaccine", fetchuser, async (req, res) => {
   //  here we are fetching notes of the user
   try {
     const vacs = await Vaccine.find({ user: req.user.id });
@@ -25,7 +25,7 @@ router.post(
   fetchuser,
   // feching Vaccine data and adding restriction
   [
-    body("vaccinename", "Enter a valid name").isLength({ min: 3 }),
+    body("vaccinename", "Enter a valid name").isLength({ min: 1 }),
     body("notifications_sent", "notification failed")
   ],
   async (req, res) => {

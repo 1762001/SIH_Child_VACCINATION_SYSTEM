@@ -2,9 +2,9 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Link,
-  Route,
-  Redirect
+  
+  Route
+  
 } from "react-router-dom";
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
@@ -12,7 +12,7 @@ import { routes } from './Data/RouteData';
 import LogoutPage from './page-components/LogoutPage';
 import PrivateRoute from './components/PrivateRouter';
 import CenterLogin from './page-components/CenterLogin';
-import EndUserLogin from './page-components/EndUserLogin';
+
 import AdminForgotPassword from './page-components/AdminForgotPassword';
 import AdminRegistration from './page-components/AdminRegistration';
 import CenterForgotPassword from './page-components/CenterForgotPassword';
@@ -44,6 +44,7 @@ import Book_Vaccine from './Homepage-src/Home-Page/Book_Vaccine';
 import Admin_Login from './page-components/Admin_Login';
 
 import Dashboard from './Homepage-src/Home-Page/Dashboard';
+import DonationResult from './Homepage-src/Home-Page/DonationResult';
 
 
 
@@ -126,7 +127,9 @@ function App() {
           <Route path="/donation" exact="true">
           <Donation />
           </Route>
-
+          <Route path="/donationres" exact="true">
+            <DonationResult/>
+          </Route>
           <Route path="/success" exact="true">
             <Success />
           </Route>

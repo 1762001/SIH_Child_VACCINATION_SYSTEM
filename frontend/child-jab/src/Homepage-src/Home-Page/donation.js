@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 
 import {  useHistory } from 'react-router-dom';
-// import { useHistory } from 'react-router-dom';
-// const history = useHistory()
-// import {Link, useHistory} from "react-router-dom";
-
-// import { Link } from 'react-router-dom';
 
 import './Donation.css'
 
@@ -34,17 +29,10 @@ export function Donation() {
       }),
     });
     const json = await response.json();
-    if (json.success) {
-      // save the auth token and redirect
-      // localStorage.setItem('token' , json.authtoken);
-      // to redirect we use useNavigate hook
-      history.push("/");
-      
-    } else {
-      // props.showAlert("Invalid credentials","danger")
-      console.log(json);
-    }
+ 
+
     console.log(json);
+    history.push('/donationres');
   };
   return ( 
     <div className='donation1'> 
@@ -65,8 +53,8 @@ export function Donation() {
         <input className='input1' name="amount" type="number" onChange={onChange} id="amount"/>
 
         
-        <button className='btn1' type='submit'>Donate</button>
-        {/* <button type="submit" onClick={() => history.push('/about-us')}>Donate Now</button> */}
+        <button  className='btn1' type='submit'>Donate</button>
+       
         
       </form>
   </div> 

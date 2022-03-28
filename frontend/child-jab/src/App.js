@@ -127,7 +127,7 @@ function App() {
           <Route path="/donation" exact="true">
           <Donation />
           </Route>
-          <Route path="/donationres">
+          <Route path="/donationres" exact="true">
             <DonationResult/>
           </Route>
           <Route path="/success" exact="true">

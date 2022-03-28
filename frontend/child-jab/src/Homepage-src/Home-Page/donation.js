@@ -48,20 +48,20 @@ export function Donation() {
   };
   return ( 
     <div className='donation1'> 
-    <div class="background1">
-        <div class="shape"></div>
-        <div class="shape"></div>
+    <div className="background1">
+        <div className="shape"></div>
+        <div className="shape"></div>
     </div>
       <form method='POST' onSubmit={handleSubmit}  className='userForm1'>
         <h3>Donate Here</h3>
 
-        <label className='label1' for="username">Full Name</label>
+        <label className='label1'>Full Name</label>
         <input className='input1' name="DonatorName"type="text" onChange={onChange} id="username"/>
 
-        <label className='label1' for="number">Phone No.</label>
+        <label className='label1' >Phone No.</label>
         <input className='input1' name="Phone" onChange={onChange} id="phone"/>
 
-        <label className='label1' for="number">Amount</label>
+        <label className='label1' >Amount</label>
         <input className='input1' name="amount" type="number" onChange={onChange} id="amount"/>
 
         

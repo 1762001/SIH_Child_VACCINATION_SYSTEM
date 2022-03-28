@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {Link, useHistory } from "react-router-dom";
-import "./AdminLogin.css"
+// import "./AdminLogin.css"
 
 const AdminLogin = (props) => {
   const [credentials, setCredentials]=useState({email: "",password:""});
@@ -28,7 +28,7 @@ const AdminLogin = (props) => {
       // to redirect we use useNavigate hook
       // props.showAlert("Logged in","success")
       // props.alert('Hurray! Login Successfull')
-      history.push("/manage-centers");
+      history.push("/adminpage");
       console.log("logeed in");
       
     }
@@ -85,7 +85,7 @@ const AdminLogin = (props) => {
         <button
           type="submit"
           className="button login__submit"
-          onClick={() => history.push('/admin-registration')}
+          onClick={() => history.push('/adminpage')}
           
         >
           <span class="button__text">Register</span>

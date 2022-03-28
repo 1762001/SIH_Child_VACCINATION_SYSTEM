@@ -38,7 +38,7 @@ export function Donation() {
       // save the auth token and redirect
       // localStorage.setItem('token' , json.authtoken);
       // to redirect we use useNavigate hook
-      history.push("/");
+      history.push('/');
       
     } else {
       // props.showAlert("Invalid credentials","danger")

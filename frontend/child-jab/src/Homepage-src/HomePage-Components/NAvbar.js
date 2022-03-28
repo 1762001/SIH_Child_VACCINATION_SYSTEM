@@ -88,6 +88,9 @@ function NAvbar(props) {
             <Nav.Link href="/book">
               <b className="bold-nav">Book vaccine</b>
             </Nav.Link>
+            <Nav.Link href="/admin">
+              <b className="bold-nav">Admin</b>
+            </Nav.Link>
 
 
           

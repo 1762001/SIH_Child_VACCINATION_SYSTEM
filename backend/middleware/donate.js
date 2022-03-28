@@ -1,5 +1,5 @@
 const donate= require('../models/Donation')
-module.exports.create = function(req,res){
+module.exports.create = function(req,res,next){
     donate.create({
         DonatorName: req.body.name,
         Phone:req.body.phone,
@@ -7,6 +7,7 @@ module.exports.create = function(req,res){
         
     }),function(err, donation){
         if(err){console.log("error in donating");return};
-        return res.json('back');
+        return res.json('Success');
+        next();
     }
 }

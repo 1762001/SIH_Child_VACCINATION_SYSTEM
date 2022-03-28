@@ -39,6 +39,7 @@ import PregCard from './Homepage-src/HomePage-Components/DietChart/PregCard';
 import PostPreg from './Homepage-src/HomePage-Components/DietChart/PostPreg';
 import Infant from './Homepage-src/HomePage-Components/DietChart/Infant';
 import Book_Vaccine from './Homepage-src/Home-Page/Book_Vaccine';
+import Admin_Login from './page-components/Admin_Login';
 
 
 
@@ -124,6 +125,9 @@ function App() {
           </Route>
           <Route path="/diet" exact="true">
           <Diet />
+          </Route>
+          <Route path="/admin" exact="true">
+          <Admin_Login />
           </Route>
 
           <Route path="/ourvalues" exact="true">

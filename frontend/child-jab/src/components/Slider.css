@@ -5,10 +5,12 @@
 .carousel-control-prev {
   left: 0;
   background-color: transparent;
+  border: none !important;
 }
 .carousel-control-next {
   right: 0;
   background-color: transparent;
+  border: none !important;
 }
 .carousel-item img{
  height: 100vh;

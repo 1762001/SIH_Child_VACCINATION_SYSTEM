@@ -8,43 +8,15 @@
     box-sizing: border-box;
 }  */
  .donation1 {
-     background-color: #080710;
-     padding: 25rem;
-     
+     background-color: white;
+     /* padding: 25rem; */
+     /* width: 100%; */
+     height: 100%;
+     overflow:hidden ;
  }
 
- .background1 {
-     width: 430px;
-     height: 540px;
-     position: absolute;
-     transform: translate(-50%, -50%);
-     left: 50%;
-     top: 50%;
- }
 
- .background1 .shape {
-     height: 200px;
-     width: 200px;
-     position: absolute;
-     border-radius: 50%;
- }
-
- .shape:first-child {
-     background: linear-gradient(#1845ad,
-             #23a2f6);
-     left: -80px;
-     top: -80px;
- }
-
- .shape:last-child {
-     background: linear-gradient(to right,
-             #ff512f,
-             #f09819);
-     right: -30px;
-     bottom: -80px;
- }
-
- .userForm1 {
+ /* .userForm1 {
      height: 550px;
      width: 400px;
      background-color: rgba(255, 255, 255, 0.13);
@@ -57,7 +29,7 @@
      border: 2px solid rgba(255, 255, 255, 0.1);
      box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
      padding: 50px 35px;
- }
+ } */
 
  .userForm1 {
      font-family: 'Poppins', sans-serif;
@@ -94,7 +66,7 @@
  }
 
  ::placeholder {
-     color: #e5e5e5;
+     color: #0c0b0b;
  }
 
  .btn1 {
@@ -108,18 +80,144 @@
      border-radius: 5px;
      cursor: pointer;
  }
+ 
 
+    .imgD{
+        width: 65rem;
+        height: 30rem;
+        margin-left: 15rem;
+        opacity: 0.8;
+        display: inline-block;
+        
+    }
+
+    .pD{
+        color: black;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .colD{
+    margin: 3rem;
+    color: white;
+    background-color: rgb(161, 70, 161);
+    padding: 1.2rem;
+    width: 90rem;
+    height: 13rem;
+    font-weight: 600;
+    font-size: x-large;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+
+.containerD{
+     min-height: 0vh;
+     /* margin: 2rem; */
+}
+
+.hD{
+    text-align: center;
+}
+
+hr{
+    border:none;
+    height: 20px;
+ 	width: 90%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px; 
+}
+
+div.backgroundD {
+    background: url('https://media.gettyimages.com/photos/group-of-happy-gypsy-indian-children-desert-village-india-picture-id613253596?k=20&m=613253596&s=612x612&w=0&h=d3rUyGRyrcLrTwA1ytu4hE9r7BQYEeS2Zn90D8HskaU=') repeat;
+    border: 2px solid black;
+    margin: 2rem;
+    height: 20rem;
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #000000;
+    text-align: center;
+  }
+
+  .colD:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: 1s;
+    /* border-radius: 1.3rem; */
+    }
+
+    .imgS{
+        border-radius: 2rem;
+        height: 30rem;
+        width: 40rem;
+    }
+
+    
  .SuccessD {
-     height: 38rem;
-     color: white;
-     text-align: center;
-     background-image: linear-gradient(to left top, #23a2f6, #b28df1, #ff71bc, #ff736d, #f09819);
-     padding: 8rem;
-     font-family:'Merriweather';
-     font-weight: 900;
-     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    }
+    height: 38rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+    /* background-image: linear-gradient(to left top, #23a2f6, #b28df1, #ff71bc, #ff736d, #f09819); */
+    /* padding: 2rem; */
+    font-family:'Merriweather';
+    font-weight: 900;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   } 
 
-    .SuccessD h1{
-        font-size: 5rem;
-    }
+   .SuccessD h1{
+       font-size: 5rem;
+   }
+
+   div.backgroundS {
+       background: url('https://donate.worldvision.org/wp-content/uploads/2017/08/D200-0933-23_cmyk-1.jpg') repeat;
+       border: 2px solid black;
+       margin: 2rem;
+       /* height: 38rem; font-weight: 900; */
+      
+       /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+      
+     }
+     
+     div.transbox {
+       margin: 30px;
+       background-color: #ffffff;
+       border: 1px solid black;
+       opacity: 0.6;
+     }
+     
+     div.transbox h1, p {
+       margin: 5%;
+       font-weight: bold;
+       font-size: xx-large;
+       color: #000000;
+       text-align: center;
+     }
+
+     .formD{
+         margin-top: 3%;
+         width: 30rem;
+         /* height: 58rem; */
+         margin-left: 31%;
+         /* background-color: rgb(173, 95, 173); */
+         padding: 1.5rem;
+         margin-bottom: 5%;
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     }
+
+     .innerForm{
+         /* background-color: #ffffff; */
+         margin: 1rem;
+         /* padding: 1.5rem; */
+     }

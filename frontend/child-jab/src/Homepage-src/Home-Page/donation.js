@@ -2,7 +2,12 @@ import React, { useState } from 'react';
 
 import {  useHistory } from 'react-router-dom';
 
+import NAvbar from '../HomePage-Components/NAvbar'
+
 import './Donation.css'
+
+//bootstrap CSS only 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></link>
 
 
 export function Donation() { 
@@ -34,29 +39,48 @@ export function Donation() {
     history.push('/donationres');
   };
   return ( 
-    <div className='donation1'> 
-    <div className="background1">
-        <div className="shape"></div>
-        <div className="shape"></div>
-    </div>
-      <form method='POST' onSubmit={handleSubmit}  className='userForm1'>
-        <h3>Donate Here</h3>
+    
+   
+    <div className='donation1'>
+      <NAvbar/>
 
-        <label className='label1'>Full Name</label>
-        <input className='input1' name="DonatorName"type="text" onChange={onChange} id="username"/>
+      
+      <div>
+        <div class="backgroundD">
+          <div class="transbox">
+          <p>Your smallest contribution can help us bring joy to their lives.<br></br> Experience 'joy of giving'. Spread Smile today!</p>
+          </div>
+      </div>  
+        <div class="container containerD">
+              <div class="row rowD">
+                    <div class='col-md-3 col-sm-12 colD'>
+                      Donate to help us fulfill wishes of kids diagnosed with life threatning disease.
+                    </div>
+                    <div class="col-md-3 col-sm-12 colD">
+                      Donate to help pregnant women with diseases caused from transfusion.
+                    </div>
+                    <div class="col-md-3 col-sm-12 colD">
+                      Your donation will help a child get proper medical care, protection against vaccine-preventable diseases.
+                    </div>
+                  </div>  
+              </div>
+             
+        </div>
+        <div class="formD">
+              <div class='innerForm'>
+                <form method='POST' onSubmit={handleSubmit}  className='userForm1'>
+                <h3>Donate Here</h3>
 
-        <label className='label1' >Phone No.</label>
-        <input className='input1' name="Phone" onChange={onChange} id="phone"/>
-
-        <label className='label1' >Amount</label>
-        <input className='input1' name="amount" type="number" onChange={onChange} id="amount"/>
-
-        
-        <button  className='btn1' type='submit'>Donate</button>
-       
-        
-      </form>
-  </div> 
+                <input className='input1' name="DonatorName"type="text" placeholder='Full Name' onChange={onChange} id="username"/>
+                <input className='input1' name="Phone" placeholder='Phone No.' onChange={onChange} id="phone"/>
+                <input className='input1' name="amount" type="number" placeholder='Amount' onChange={onChange} id="amount"/>
+                <button  className='btn1' type='submit'>Donate</button>
+             </form>
+            </div>
+          </div>
+            
+       </div> 
+      
   ); 
 }
 

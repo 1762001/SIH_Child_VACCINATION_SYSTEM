@@ -25,7 +25,11 @@ function About() {
             <div className = "content">
                 <h2>About Us</h2>
                 <span></span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aspernatur voluptas inventore ab voluptates nostrum minus illo laborum harum laudantium earum ut, temporibus fugiat sequi explicabo facilis unde quos corporis!</p>
+                <p class="pDetails">We aim to vaccinate each and every child and get them immunized to vaccine-preventable diseases. 
+                    We ensure that minimum death occurs or caused by lack, ignorance, neglicience towards vaccine. 
+                    <br></br><br></br>
+                    <strong class="strongD">Vaccinate to Eliminate.</strong>
+                </p>
                 <ul className = "links">
                     <li><a href = "#">work</a></li>
                     <div className = "vertical-line"></div>

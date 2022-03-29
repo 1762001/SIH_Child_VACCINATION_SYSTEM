@@ -17,6 +17,7 @@ height:50vh;
 margin:50px auto
 }
 .content{
+    padding-top: 2rem;
     background-color: #12192c;
     display: flex;
     justify-content: center;
@@ -154,3 +155,14 @@ margin:50px auto
     color:#000;
     font-weight: bold;
   } 
+
+  .pDetails{
+      font-size: 1.3rem;
+  }
+
+  .strongD{
+      font-weight: 900;
+      margin-top: 5%;
+      font-size: 28px;
+      letter-spacing: 1.6px;
+  }

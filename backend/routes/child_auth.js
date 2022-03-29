@@ -126,7 +126,7 @@ router.post(
         }
     }
 );
-router.post("/getUser",fetchuser, async (req, res) => {
+router.post("/getchild",fetchuser, async (req, res) => {
     try {
       //  here we are taking user id as to find the the user by its user id
       var userId = req.user.id;

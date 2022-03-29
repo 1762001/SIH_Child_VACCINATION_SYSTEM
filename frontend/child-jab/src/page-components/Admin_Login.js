@@ -21,17 +21,18 @@ const Admin_Login = (props) => {
       body: JSON.stringify({ email:credentials.email , password : credentials.password})
     });
     const json = await response.json();
-    if(json.success){
-      // save the auth token and redirect
-      localStorage.setItem( "token" , json.authtoken);
-      // to redirect we use useNavigate hook
-    //   props.showAlert("Logged in","success")
-      history.push("/");
+    // if(json.success){
+    //   // save the auth token and redirect
+    //   localStorage.setItem( "token" , json.authtoken);
+    //   // to redirect we use useNavigate hook
+    // //   props.showAlert("Logged in","success")
+     
       
-    }
-    else{
-      props.showAlert("Invalid Credentials","danger")
-    }
+    // }
+    // else{
+    //   props.showAlert("Invalid Credentials","danger")
+    // }
+    history.push('/adminpage');
     console.log(json); 
   };
   return (

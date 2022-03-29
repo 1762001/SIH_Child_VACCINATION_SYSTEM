@@ -45,6 +45,9 @@ import Admin_Login from './page-components/Admin_Login';
 
 import Dashboard from './Homepage-src/Home-Page/Dashboard';
 import DonationResult from './Homepage-src/Home-Page/DonationResult';
+import Admin_Page from './Homepage-src/Home-Page/Admin_Page';
+// import HospitalState from './Context/HospitalState';
+import ChildPage from './page-components/ChildPage';
 
 
 
@@ -143,7 +146,9 @@ function App() {
           <Route path="/admin" exact="true">
           <Admin_Login />
           </Route>
-
+          <Route path = "/adminpage" exact="true">
+            <Admin_Page />
+          </Route>
           <Route path="/ourvalues" exact="true">
           <OurValues></OurValues>
           </Route>
@@ -153,6 +158,11 @@ function App() {
           <Route path="/enquiryform" exact="true">
           <ParentsForm></ParentsForm>
           </Route>
+          
+          <Route path="/childpage" exact="true">
+            <ChildPage/>
+          </Route>
+
           
        {
        

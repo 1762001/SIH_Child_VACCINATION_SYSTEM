@@ -134,7 +134,7 @@ router.post("/getUser",fetchuser, async (req, res) => {
 router.get("/gethospitallist",async(req, res)=>{
     try {
         const hospital = await Hospital.find();
-        res.json(hospital.name);
+        res.json(hospital);
     }catch (error){
         console.error(error.message);
         res.status.send("Internal Server error");

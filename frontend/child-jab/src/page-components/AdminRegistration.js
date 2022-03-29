@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {  useHistory } from "react-router-dom";
-import "./AdminLogin.css"
+
 
 const AdminRegistration = (props) => {
   const [credentials, setCredentials]=useState({name:"",email: "",password:"",cpassword:"",address:"",city:"",pincode:""}) ;

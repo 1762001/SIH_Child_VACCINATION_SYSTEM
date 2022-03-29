@@ -1,7 +1,23 @@
-.content{
-    background-color: #09010efb;
-}
 
-.Homepage{
+.parent{
+    display: flex;
+}
+.news-contents{
     
+   display: flex !important;
+   gap: 50px;
+   align-content: center;
+   width: 100vw;
+   height: 200px;
+   /* flex-wrap: wrap; */
+   overflow-x: scroll;
+   overflow-y: hidden;
+   
+}
+.card-2{
+    width: 250px;
+    padding: 2px 5px;
+}
+.card-2 img{
+    width: 250px;
 }

@@ -3,6 +3,11 @@ const { Schema , Types } = mongoose;
 const {ObjectId} = Types
 
 const VaccineSchema = new Schema({
+
+    user:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref:'child'
+    },
     vaccinename:{
         type:String,
         required:true

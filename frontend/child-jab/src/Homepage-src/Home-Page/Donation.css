@@ -1,12 +1,4 @@
- /* media = ":-moz-full-screen" */
 
- /* *,
-*:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}  */
  .donation1 {
      background-color: white;
      /* padding: 25rem; */
@@ -16,81 +8,6 @@
  }
 
 
- /* .userForm1 {
-     height: 550px;
-     width: 400px;
-     background-color: rgba(255, 255, 255, 0.13);
-     position: absolute;
-     transform: translate(-50%, -50%);
-     top: 50%;
-     left: 50%;
-     border-radius: 10px;
-     backdrop-filter: blur(10px);
-     border: 2px solid rgba(255, 255, 255, 0.1);
-     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
-     padding: 50px 35px;
- } */
-
- .userForm1 {
-     font-family: 'Poppins', sans-serif;
-     color: #ffffff;
-     letter-spacing: 0.5px;
-     outline: none;
-     border: none;
- }
-
- .userForm1 h3 {
-     font-size: 32px;
-     font-weight: 500;
-     line-height: 42px;
-     text-align: center;
- }
-
- .label1 {
-     display: block;
-     margin-top: 30px;
-     font-size: 16px;
-     font-weight: 500;
- }
-
- .input1 {
-     display: block;
-     height: 50px;
-     width: 100%;
-     background-color: rgba(255, 255, 255, 0.07);
-     border-radius: 3px;
-     padding: 0 10px;
-     margin-top: 8px;
-     font-size: 14px;
-     font-weight: 300;
- }
-
- ::placeholder {
-     color: #0c0b0b;
- }
-
- .btn1 {
-     margin-top: 50px;
-     width: 100%;
-     background-color: #ffffff;
-     color: #080710;
-     padding: 15px 0;
-     font-size: 18px;
-     font-weight: 600;
-     border-radius: 5px;
-     cursor: pointer;
- }
- 
-
-    .imgD{
-        width: 65rem;
-        height: 30rem;
-        margin-left: 15rem;
-        opacity: 0.8;
-        display: inline-block;
-        
-    }
-
     .pD{
         color: black;
         font-weight: 900;
@@ -98,12 +15,13 @@
     }
 
     .colD{
-    margin: 3rem;
-    color: white;
-    background-color: rgb(161, 70, 161);
+    margin: 2.2rem;
+    /* color: rgba(0, 0, 0, 0.7); */
+    color: #fff;
+    background-color: #ff652f;
     padding: 1.2rem;
-    width: 90rem;
-    height: 13rem;
+    width: 80rem;
+    height: 16rem;
     font-weight: 600;
     font-size: x-large;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -111,23 +29,10 @@
 
 .containerD{
      min-height: 0vh;
+     margin-left: 14rem;
      /* margin: 2rem; */
 }
 
-.hD{
-    text-align: center;
-}
-
-hr{
-    border:none;
-    height: 20px;
- 	width: 90%;
-	height: 50px;
-	margin-top: 0;
-	border-bottom: 1px solid #1f1209;
-	box-shadow: 0 20px 20px -20px #333;
-  margin: -50px auto 10px; 
-}
 
 div.backgroundD {
     background: url('https://media.gettyimages.com/photos/group-of-happy-gypsy-indian-children-desert-village-india-picture-id613253596?k=20&m=613253596&s=612x612&w=0&h=d3rUyGRyrcLrTwA1ytu4hE9r7BQYEeS2Zn90D8HskaU=') repeat;
@@ -152,7 +57,8 @@ div.backgroundD {
   }
 
   .colD:hover{
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+      /* rgba(0, 0, 0, 0.7) */
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.1) 25px 25px;
     transition: 1s;
     /* border-radius: 1.3rem; */
     }
@@ -163,6 +69,7 @@ div.backgroundD {
         width: 40rem;
     }
 
+    /* Success */
     
  .SuccessD {
     height: 38rem;
@@ -197,7 +104,7 @@ div.backgroundD {
        opacity: 0.6;
      }
      
-     div.transbox h1, p {
+     div.transbox h1 {
        margin: 5%;
        font-weight: bold;
        font-size: xx-large;
@@ -205,19 +112,106 @@ div.backgroundD {
        text-align: center;
      }
 
-     .formD{
-         margin-top: 3%;
-         width: 30rem;
-         /* height: 58rem; */
-         margin-left: 31%;
-         /* background-color: rgb(173, 95, 173); */
-         padding: 1.5rem;
-         margin-bottom: 5%;
-         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     /* form */
+
+     .login-wrapper{
+         height: 100vh;
+         width: 100vw;
+         display: flex;
+         justify-content: center;
+         align-items: center;
      }
 
-     .innerForm{
-         /* background-color: #ffffff; */
-         margin: 1rem;
-         /* padding: 1.5rem; */
+     .formT2{
+         position: relative;
+         width: 100%;
+         max-width: 380px;
+         padding: 80px 40px 40px;
+         background: rgba(0, 0, 0, 0.7);
+         border-radius: 10px;
+         color: #ffffff;
+         box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
      }
+
+     .formT2::before{
+         content: '';
+         position: 'absolute';
+         top: 0;
+         left: 0;
+         width: 50%;
+         height: 100%;
+         background: rgba(255, 255, 255, 0.08);
+         border-radius: 10px;
+         pointer-events: none;
+     }
+
+     .formT2 img{
+         position: absolute;
+         top: -50px;
+         left: calc(50% - 50px);
+         width: 100px;
+         background: rgba(255, 255, 255, 0.8);
+         border-radius: 50%;
+     }
+
+     .formT2 h2{
+         text-align: center;
+         letter-spacing: 1px;
+         margin-bottom: 2rem;
+         color: #ff652f;
+     }
+
+     .formT2 .input-group{
+         position: relative;
+     }
+
+     .formT2 .input-group input{
+         width: 100%;
+         padding: 10px 0;
+         font-size: 1rem;
+         letter-spacing: 1px;
+         margin-bottom: 30px;
+         border: none;
+         border-bottom: 1px solid #fff;
+         outline: none;
+         background-color: transparent;
+         color: inherit;
+       }
+       .formT2 .input-group label {
+         position: absolute;
+         top: 0;
+         left: 0;
+         padding: 10px 0;
+         font-size: 1rem;
+         pointer-events: none;
+         transition: .3s ease-out;
+       }
+       .formT2 .input-group input:focus + label,
+       .formT2 .input-group input:valid + label {
+         transform: translateY(-18px);
+         color: #ff652f;
+         font-size: .8rem;
+       }
+       .submitBtn {
+         display: block;
+         margin-left: auto;
+         border: none;
+         outline: none;
+         background: #ff652f;
+         font-size: 1rem;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         padding: 10px 20px;
+         border-radius: 5px;
+         cursor: pointer;
+       }
+       
+       /* Success */
+     .pSuccess{
+        margin: 5%;
+        font-weight: bold;
+        font-size: xx-large;
+        color: #000000;
+        text-align: center;
+      }
+ 

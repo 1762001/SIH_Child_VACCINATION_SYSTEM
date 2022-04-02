@@ -48,39 +48,56 @@ export function Donation() {
       <div>
         <div class="backgroundD">
           <div class="transbox">
-          <p>Your smallest contribution can help us bring joy to their lives.<br></br> Experience 'joy of giving'. Spread Smile today!</p>
+          <p class='pD'>Your smallest contribution can help us bring joy to their lives.<br></br> Experience 'joy of giving'. Spread Smile today!</p>
           </div>
       </div>  
+
+      <div class='login-wrapper'>
+        <form action=""  className='formT2' method='post' onSubmit={handleSubmit} autoComplete='off'>
+          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFQN6UPBC7MNHNqDYbqu07KyQAb5th5Nw-fg&usqp=CAU' alt='donate'></img>
+          <h2>Donate Here</h2>
+
+
+          <div class='input-group'>
+            <input type='' name='DonatorName' id='userName'  ></input>
+          
+          </div>
+          <div class='input-group'>
+            <input type='text' name='DonatorName' id='userName'  onChange={onChange} required></input>
+            <label for='userName'>Full Name</label>
+          </div>
+          <div class='input-group'>
+            <input type='phone' name='Phone' id='phone'  onChange={onChange} required></input>
+            <label for='phone'>Phone No.</label>
+          </div>
+          <div class='input-group'>
+            <input type='number' name='amount' id='amount'  onChange={onChange} required></input>
+            <label for='userName'>Amount</label>
+          </div>
+          <input type='submit' value='login' class='submitBtn'></input>
+
+        </form>
+      </div>
+
+
+      
+
         <div class="container containerD">
               <div class="row rowD">
-                    <div class='col-md-3 col-sm-12 colD'>
+                    <div class='col-md-3 colD'>
                       Donate to help us fulfill wishes of kids diagnosed with life threatning disease.
                     </div>
-                    <div class="col-md-3 col-sm-12 colD">
+                    <div class="col-md-3 colD">
                       Donate to help pregnant women with diseases caused from transfusion.
                     </div>
-                    <div class="col-md-3 col-sm-12 colD">
+                    <div class="col-md-3 colD">
                       Your donation will help a child get proper medical care, protection against vaccine-preventable diseases.
                     </div>
                   </div>  
               </div>
              
         </div>
-        <div class="formD">
-              <div class='innerForm'>
-                <form method='POST' onSubmit={handleSubmit}  className='userForm1'>
-                <h3>Donate Here</h3>
-
-                <input className='input1' name="DonatorName"type="text" placeholder='Full Name' onChange={onChange} id="username"/>
-                <input className='input1' name="Phone" placeholder='Phone No.' onChange={onChange} id="phone"/>
-                <input className='input1' name="amount" type="number" placeholder='Amount' onChange={onChange} id="amount"/>
-                <button  className='btn1' type='submit'>Donate</button>
-             </form>
-            </div>
-          </div>
-            
-       </div> 
-      
+      </div>
   ); 
 }
 

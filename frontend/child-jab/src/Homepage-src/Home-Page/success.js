@@ -15,7 +15,7 @@ export function Success(){
             <div class="backgroundS">
           <div class="transbox">
               <h1>Successfully Donated</h1>
-          <p>Thankyou For Your Precious Donation.</p>
+          <p className='pSuccess'>Thankyou For Your Precious Donation.</p>
           </div>
         </div>  
         {/* </div> */}

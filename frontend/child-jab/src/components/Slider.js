@@ -1,5 +1,6 @@
 import React from "react";
 import './Slider.css'
+import third from '../Homepage-src/HomePage-Components/DietChart/images/third.jpg'
 const Slider = () => {
   return (
     <div>
@@ -51,7 +52,7 @@ const Slider = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="https://policeresults.com/img/National-Immunization-Day-Theme-Slogan-Quotes-Importance-Images-Observance-and-Awareness-Program.jpg"
+              src={third}
               className="d-block w-100 img-2"
               alt="..."
             />

@@ -5,7 +5,7 @@ function Footer() {
         <>
            <div id="footer">
   <div>
-    <p>© 2022 by Child Care Center. All rights reserved.</p>
+    <p className='footer-para'>© 2022 by Child Care Center. All rights reserved.</p>
     
     <p className="mb-0">
       <Link to="/about-us" style={{ color: "White" }}>About Us</Link>

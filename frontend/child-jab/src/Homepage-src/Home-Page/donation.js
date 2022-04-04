@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import {  useHistory } from 'react-router-dom';
+import Footer from '../HomePage-Components/Footer';
 
 import NAvbar from '../HomePage-Components/NAvbar'
 
@@ -39,12 +40,9 @@ export function Donation() {
     history.push('/donationres');
   };
   return ( 
-    
-   
+    <>
+    <NAvbar></NAvbar>
     <div className='donation1'>
-      <NAvbar/>
-
-      
       <div>
         <div class="backgroundD">
           <div class="transbox">
@@ -59,7 +57,7 @@ export function Donation() {
 
 
           <div class='input-group'>
-            <input type='' name='DonatorName' id='userName'  ></input>
+            <input type='' class='input1' name='DonatorName' id='userName'  ></input>
           
           </div>
           <div class='input-group'>
@@ -98,6 +96,9 @@ export function Donation() {
              
         </div>
       </div>
+
+      <Footer></Footer>
+      </>
   ); 
 }
 
